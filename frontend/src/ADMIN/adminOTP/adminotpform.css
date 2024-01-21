@@ -1,0 +1,11 @@
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otp-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}

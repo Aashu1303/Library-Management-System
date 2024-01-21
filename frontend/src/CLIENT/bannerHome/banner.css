@@ -1,0 +1,51 @@
+#banner-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  filter: brightness(0.3);
+}
+
+.custom-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.carousel-indicators button {
+  box-shadow: none;
+}
+
+.text-outline-h {
+  color: rgb(252, 252, 252);
+  -webkit-text-stroke: 0.3px black;
+  font-size: 3rem;
+}
+.text-outline-p {
+  color: rgba(255, 255, 255, 0.466);
+  -webkit-text-stroke: 0.1px black;
+}
+
+@media screen and (max-width: 700px) {
+  .text-outline-h {
+    font-size: 2rem;
+  }
+  .text-outline-p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text-outline-h {
+    font-size: 1.5rem;
+  }
+  .text-outline-p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .text-outline-h {
+    font-size: 1rem;
+  }
+  .text-outline-p {
+    font-size: 0.5rem;
+  }
+}
