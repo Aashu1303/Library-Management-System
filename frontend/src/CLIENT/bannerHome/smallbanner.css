@@ -1,0 +1,25 @@
+.div-with-background {
+  height: 400px;
+  overflow: hidden;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("/UniversityPicture.png");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-color: rgb(75, 129, 177);
+}
+
+.quote-container {
+  text-align: right;
+  width: auto;
+  color: white;
+}
+
+.text-color {
+  color: black;
+}

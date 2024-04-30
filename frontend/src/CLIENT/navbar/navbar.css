@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Rubik:wght@300&display=swap");
+
+.navbar {
+  /* background-color: #e3f2fd; */
+  background-color: #fff;
+  height: 60px;
+}
+
+li {
+  margin-right: 0.8rem;
+}
+
+.vitlogo {
+  margin-right: 15px;
+}
+
+.heading {
+  color: #302f7d;
+  font-family: "Lemon", serif;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #595959;
+  font-family: "Lemon", serif;
+}
+.navlink:hover {
+  color: #302f7d;
+}
+
+#navbar-search-btn {
+  box-shadow: none;
+  color: black;
+  background-color: rgba(109, 184, 235, 0.938);
+}
+
+.a {
+  display: flex;
+  color: black;
+  align-items: center;
+}
+.a:hover {
+  color: black;
+}
+
+#nav-conditional-rendering {
+  display: flex;
+}
+
+@media screen and (max-width: 1199px) {
+  #nav-conditional-rendering {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#navbar-mobileview-btn {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 380px) {
+  #navbar-mobileview-btn {
+    font-size: 1rem;
+  }
+
+  #navbar-title-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #navbar-mobileview-btn {
+    font-size: 0.5rem;
+  }
+}

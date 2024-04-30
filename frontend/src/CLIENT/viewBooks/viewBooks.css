@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Rubik:wght@300&family=Tektur:wght@400..900&display=swap");
+
+.sub-head {
+  font-size: 20px;
+}
+
+.span {
+  font-family: "Tektur", sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  .image-div {
+    text-align: right !important;
+    width: fit-content !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .image-div {
+    text-align: center !important;
+    width: fit-content !important;
+  }
+}
