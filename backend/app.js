@@ -34,9 +34,12 @@ const PageNotFound = require("./errorHandler/PageNotFound");
 
 // Allow CORS Policy
 // app.use(cors())
-
+const corsOptions = {
+  origin: '*',
+  credentials: true // Make sure to include this if you're sending cookies or authorization headers
+};
 // For recieiving httpOnly cookies
-app.use(cors());
+app.use(cors(corsOptions));
 
 app.use(cookieParser());
 
