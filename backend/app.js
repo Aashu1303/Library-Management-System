@@ -36,7 +36,7 @@ const PageNotFound = require("./errorHandler/PageNotFound");
 // app.use(cors())
 
 // For recieiving httpOnly cookies
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
+app.use(cors({ credentials: true, origin: "https://library-management-system-1-c2b1.onrender.com" }));
 
 app.use(cookieParser());
 
